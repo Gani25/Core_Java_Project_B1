@@ -21,4 +21,7 @@ public class For5 {
 }
 
 // WAP to print table of n
-//WAP to print square of 1 to n
+// WAP to print square of 1 to n
+
+// WAP to print sum of digit of n
+// n = 153 -> 3 + 5 + 1 = 9
