@@ -1,6 +1,5 @@
 package day10.classes;
 
-import java.util.Scanner;
 
 // COMBINING FIELDS AND METHODS
 public class Person3 {
