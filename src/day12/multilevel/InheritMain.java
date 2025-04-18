@@ -7,5 +7,5 @@ public class InheritMain {
 		partTimeEmployee.calculateSalary();
 		System.out.println(partTimeEmployee);
 	}
-
 }
+
