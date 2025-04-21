@@ -12,7 +12,6 @@ public class AbstractMain {
 		
 		animal.eat();
 		animal.walk();
-		animal.bark();
 	}
 
 }

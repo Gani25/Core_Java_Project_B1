@@ -7,7 +7,7 @@ public abstract class Animal {
 	}
 	
 	public abstract void eat();
-	public abstract void bark();
+	
 
 	public void walk() {
 		System.out.println("Animal is walking on four legs");
