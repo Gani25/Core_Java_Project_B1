@@ -1,24 +1,27 @@
-package day18.entity;
+package day19.entity;
 
-public class Employee implements Comparable<Employee> {
+public class Employee {
 	
 	private int empId;
 	
 	private String firstName;
 	
 	private String lastName;
+	
+	private String department;
 
 	private double salary;
 	
 	private int age;
 
-	public Employee(int empId, String firstName, String lastName, double salary, int age) {
+	public Employee(int empId, String firstName, String lastName, String department,double salary, int age) {
 		super();
 		this.empId = empId;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.salary = salary;
 		this.age = age;
+		this.department = department;
 	}
 	
 	public Employee() {
@@ -65,23 +68,20 @@ public class Employee implements Comparable<Employee> {
 		this.age = age;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee {empId=" + empId + ", firstName=" + firstName + ", lastName=" + lastName + ", salary=" + salary
-				+ ", age=" + age + "}";
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
 	}
 
 	@Override
-	public int compareTo(Employee o) {
-		// Based on Emp ID
-//		return empId-o.empId;
-		// Based on First Name
-//		return o.firstName.compareTo(firstName);
-		// Based on Salary
-		
-		return Double.compare(salary, o.salary);
-		
+	public String toString() {
+		return "Employee [empId=" + empId + ", firstName=" + firstName + ", lastName=" + lastName + ", department="
+				+ department + ", salary=" + salary + ", age=" + age + "]";
 	}
-	
+
+		
 	
 }

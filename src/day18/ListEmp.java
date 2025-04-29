@@ -1,6 +1,7 @@
 package day18;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import day18.entity.Employee;
@@ -34,7 +35,6 @@ public class ListEmp {
 			
 			System.out.println();
 		}
-		
 		employees.sort(null);
 		
 		System.out.println("Sorting All Employees By Asc Order");
