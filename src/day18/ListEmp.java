@@ -24,7 +24,7 @@ public class ListEmp {
 		employees.add(new Employee(1003, "Rohit", "Upadhyay", 45000, 27));
 		employees.add(new Employee(1007, "Om", "Nibalkar", 45000, 20));
 		employees.add(new Employee(1004, "Abdul", "Memon", 22000, 25));
-		employees.add(new Employee(1009, "Rohit", "Patil", 45000, 33));
+		employees.add(new Employee(1009, "Rohit", "Patil", 25000, 33));
 		
 		System.out.println("----------------------------");
 		System.out.println("All Employees Are");
